@@ -36,7 +36,7 @@ export default function CreateAccount() {
         body: JSON.stringify({ email: email, password: password })
       };
       if(toggle){
-        fetch('http://localhost:2000/login', requestOptions)
+        fetch('https://tweety-nwuw.onrender.com/login', requestOptions)
         .then(response => response.json())
         .then(data => {
           console.log(data)
@@ -56,7 +56,7 @@ export default function CreateAccount() {
     passwordRef.current.value = '';
       }
       else{ 
-      fetch('http://localhost:2000/api/users', requestOptions)
+      fetch('https://tweety-nwuw.onrender.com/api/users', requestOptions)
         .then(response => response.json())
         .then(data => window.alert(data.message));
     emailRef.current.value = '';
