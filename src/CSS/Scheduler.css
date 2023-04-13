@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    margin-top: 2rem;
+    height:20rem;
+    align-items: center;
+    width:50%;
+    border: 1.5px solid grey;
+    border-radius:5px;
+     
+    
+}
+
+.cardHolder{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.button{
+    border: 1px solid blue;
+    height:3rem;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    background-color: #2295ed;
+    color: #fff;
+     
+}
+
+.button:hover{
+     background-color: blue;
+}
+
+.cardHolder span{
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #fff;
+}
